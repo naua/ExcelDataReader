@@ -13,6 +13,8 @@ Also, if you are reporting an issue it is really useful if you can supply an exa
 This project is using a git-flow style workflow so please submit pull requests to the develop branch if possible.
 
 ## Finding the binaries
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnaua%2FExcelDataReader.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnaua%2FExcelDataReader?ref=badge_shield)
+
 It is recommended to use Nuget 
 ```
 Install-Package ExcelDataReader
@@ -79,3 +81,7 @@ excelReader.Close()
 
 ### Tips
 * SQL reporting services. Set ReadOption.Loose in the CreateBinaryReader factory method to skip some bounds checking which was causing SSRS generated xls to fail. (Only on changeset >= 82970)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnaua%2FExcelDataReader.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnaua%2FExcelDataReader?ref=badge_large)
